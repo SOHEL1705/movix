@@ -24,6 +24,8 @@ const Cast = ({ data, loading }) => {
             <ContentWrapper>
                 <div className="sectionHeading">Top Cast</div>
                 {!loading ? (
+
+                    
                     <div className="listItems">
                            {data?.map((item)=>{
                                let imgUrl = item.profile_path ? url.profile + item.profile_path : avatar;

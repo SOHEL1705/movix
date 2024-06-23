@@ -43,7 +43,7 @@ const SearchResult = () => {
 
 
   useEffect(() => {
-
+    setPageNumber(1)
     fetchInitialData()
 
   }, [query])

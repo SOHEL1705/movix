@@ -82,7 +82,7 @@ const Header = () => {
     if (type === "movie") {
       navigate("/explore/movie")
     } else {
-      navigate("/explore/series")
+      navigate("/explore/tv")
     }
     setMobileMenu(false)
   }
